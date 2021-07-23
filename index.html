@@ -1,60 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png"/>
-        <link rel="manifest" href="/site.webmanifest"/>
-        <title>Portifólio</title>
-    </head>
-    <body>
 
-        <div class="container">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portifólio</title>
+</head>
 
-            <div class="hamburguer">
-                <dive class="line" id="line1"></dive>
-                <dive class="line" id="line2"></dive>
-                <dive class="line" id="line3"></dive>
-                <span>fechar</span>
-            </div>
+<body>
 
-            <header>
-                <div class="img-wrapper">         
+    <div class="container">
+
+        <div class="hamburguer">
+            <dive class="line" id="line1"></dive>
+            <dive class="line" id="line2"></dive>
+            <dive class="line" id="line3"></dive>
+            <span>fechar</span>
+        </div>
+
+        <header>
+            <div class="img-wrapper">
                 <img src="imagens/bg1.jpg" alt="">
-                </div>
-                <div class="banner">
+            </div>
+            <div class="banner">
                 <h1>Web Developer & Front End Designer</h1>
                 <p>Bruna Luisa Silveira</p>
                 <button>Saiba mais</button>
-                </div>
-            </header>
-
-            <div class="sidebar">
-                <nav>
-                    <ul class="menu">
-                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Orçamentos</a></li>
-                    </ul>
-                </nav>
-                <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github-alt"></i></a>
-                </div>
-
             </div>
-        </div>
-        
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Orçamentos</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github-alt"></i></a>
+            </div>
+
+        </aside>
+
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-texte">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet praesentium maiores blanditiis culpa saepe in debitis aspernatur laudantium aliquam, corrupti nihil sed laborum esse? Ex ea illo amet esse.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-texte">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eos voluptate earum numquam, minima, eligendi dolor esse veniam, sapiente voluptatibus quam culpa modi laboriosam ut sit eveniet velit placeat laudantium!</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-texte">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus soluta debitis iure harum quis facilis veritatis iste dolores consectetur quos architecto itaque modi deserunt, blanditiis culpa accusantium deleniti, tempora impedit?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-texte">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione quos omnis dolore quia officiis eum nemo consectetur suscipit nobis odit molestias, reprehenderit, quod quas, iure incidunt! Commodi earum nemo harum!</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-texte">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae harum neque, eum velit ad minima error fugit vero soluta, ipsum voluptatem magni libero ullam odit consequatur numquam labore beatae eveniet.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e GitHub</h3>
+                    </div>
+                    <div class="conhecimento-texte">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint non iusto enim, quibusdam inventore atque id tempore. Labore eveniet, voluptatibus rem consectetur nisi, rerum explicabo laboriosam facere natus nemo consequatur.</p>
+                    </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                    <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+                </div>
+            </div>
+        </section>
+
+    </div>
 
 
-    </body>
+    </div>
 
-    <script src="script.js"></script>
+
+
+
+    </div>
+
+
+
+</body>
+
+<script src="script.js"></script>
+
 </html>
