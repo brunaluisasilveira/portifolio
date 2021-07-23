@@ -17,7 +17,6 @@
 }
 
 .hamburguer {
-    background-color: red;
     width: 3rem;
     height: 3rem;
     position: fixed;
@@ -251,7 +250,7 @@ header {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 6rem);
-    row-gap: 1rem;
+    row-gap: 2rem;
 }
 
 .conhecimento:nth-child(1) {
@@ -315,7 +314,7 @@ header {
 .conhecimento-header h3 {
     font-family: var(--font-secundary);
     font-size: 2rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 .conhecimento-text {
@@ -324,7 +323,7 @@ header {
 }
 
 .conhecimentos-img-wrapper {
-    grid-column: 7 / 10;
+    grid-column: 6 / 11;
     grid-row: 2 / 6;
     width: 100%;
 }
